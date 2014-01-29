@@ -1,39 +1,45 @@
 <p>
-    <i>( Describe task in general )</i>
+    You are given a positive integer.
+    Your function should calculate the product of the digits except zeroes.
 </p>
 
 <p>
-    Sum two passed ints
+    For example: The number is 123405, the result is 1*2*3*4*5=120 (don't forget to exclude zeroes).
 </p>
 
-<p style="text-align: center;">
-    <img class="for_info_only" title="example" src="{{MEDIA}}example.png" alt="example" width="392px"/>
-    <img class="for_editor_only" title="example" src="{{MEDIA}}example.png" alt="example" width="380px"/>
-</p>
 
-<p><i>( Explain input and output values )</i></p>
-<p>
-    <strong>Input: </strong> Two arguments. Both are int
-</p>
 
 <p>
-    <strong>Output: </strong> Int. 
+    <strong>Hints: </strong> This task can be solved with the simple conversion from int to str and versus.
+    {% if "python 2" in interpreter|lower %}
+    Read more about <a href="http://docs.python.org/2/library/stdtypes.html">built-in types</a>.
+    {% else %}
+    Read more about <a href="http://docs.python.org/3/library/stdtypes.html">built-in types</a>.
+    {% endif %}
 </p>
 
+<p>
+    <strong>Input: </strong> A positive integer
+</p>
+
+<p>
+    <strong>Output: </strong> The product of the digits, an integer.
+</p>
 
 
 <div class="for_info_only">
-    <p><i>( Put some usage examples )</i></p>
     <p>
         <strong>Example:</strong>
     </p>
     <pre class="brush: python">
-checkio(3, 2) == 5
-checkio(5, 7) == 12
+checkio(123405) == 120
+checkio(999) == 729
+checkio(1000) == 1
+checkio(1111) == 1
     </pre>
 </div>
 
 <p class="for_info_only">
     <strong>How it is used: </strong>
-    <i>(Here you can explain how it can be used in development and what is usage of this.)</i>
+    Here you can learn how solve the task not only with mathematics.
 </p>
