@@ -1,9 +1,10 @@
-def checkio(words_set):
-    return True or False
+def checkio(number):
+
+    return 1
 
 #These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':
-    assert checkio({"hello", "lo", "he"}) == True, "helLO"
-    assert checkio({"hello", "la", "hellow", "cow"}) == False, "hellow la cow"
-    assert checkio({"walk", "duckwalk"}) == False, "duck to walk"
-    assert checkio({"one"}) == False, "Only One"
+    assert checkio(123405) == 120
+    assert checkio(999) == 729
+    assert checkio(1000) == 1
+    assert checkio(1111) == 1
