@@ -28,6 +28,12 @@ TESTS = {
 
     ],
     "Extra": [
+        {"input": 999999,
+         "answer": 531441
+        },
+        {"input": 1,
+         "answer": 1
+        },
         {"input": 736635,
          "answer": 11340
         },

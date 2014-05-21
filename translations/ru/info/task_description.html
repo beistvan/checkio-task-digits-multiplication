@@ -1,0 +1,62 @@
+<img class="for_info_only" title="juggler" src="{{MEDIA}}juggler.png" alt="juggler" width="190px"
+     style="float: left; margin-top: -55px; padding-left: 25px; padding-right: 40px"/>
+<p>
+    Дано положительное целое число.
+    Вам необходимо подсчитать произведение всех цифр в этом числе, за исключением нулей.
+</p>
+
+<p>
+    Для примера: Дано число 123405. Результат будет 1*2*3*4*5=120 (не забудьте исключить нули).
+</p>
+
+
+<p>
+    <strong>Заметки: </strong>
+    Эта задача может быть легко решена с использованием конвертации числа в строку и наоборот.
+    {% if "python 2" in interpreter|lower %}
+    Прочитать о <a href="http://docs.python.org/2/library/stdtypes.html">встроенных типах данных</a>.
+    {% else %}
+    Прочитать о <a href="http://docs.python.org/3/library/stdtypes.html">встроенных типах данных</a>.
+    {% endif %}
+</p>
+
+<p>
+    <strong>Вх. данные: </strong> Положительное целое число.
+</p>
+
+<p>
+    <strong>Output: </strong> Произведение цифр как целочисленное (int).
+</p>
+
+<div style="clear: both;"></div>
+
+<div class="for_info_only">
+    <p>
+        <strong>Примеры:</strong>
+    </p>
+    <pre class="brush: python">
+checkio(123405) == 120
+checkio(999) == 729
+checkio(1000) == 1
+checkio(1111) == 1
+    </pre>
+</div>
+
+<p class="for_info_only">
+    <strong>Как это используется: </strong>
+    Эта задача может научить вас как использовать простую конвертацию типов данных.
+</p>
+
+<p>
+    <strong>Предусловия: </strong>
+        0 &lt; number &lt; 10<sup>6</sup>
+</p>
+
+<div class="facts for_info_only">
+    <p>
+        Вы можете редактировать и вносить изменения в любые задачи.
+        У каждой задачи вы можете найти ссылку на Github репозиторий в самом низу страницы.
+        Все задачи имееют одинаковую структуру.
+        Вы можете участвовать в жизни сообщества и править ошибки или совершенствовать описание.
+    </p>
+</div>
