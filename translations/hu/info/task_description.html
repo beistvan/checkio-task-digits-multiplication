@@ -1,0 +1,65 @@
+<img class="for_info_only" title="juggler" src="{{MEDIA}}juggler.png" alt="juggler" width="190px"
+     style="float: left; padding-left: 25px; padding-right: 40px"/>
+<p>
+    Adott egy pozitív egész szám. Önnek meg kell határozni az adott szám 
+    számjegyeinek a szorzatát, a nullákat kivéve.
+</p>
+
+<p>
+    Például: adott az 123405 szám. Az eredmény a következő lesz: 1*2*3*4*5=120 
+    (ne feledje kizárni a nullákat!).
+</p>
+
+
+<p>
+    <strong>Megjegyzés: </strong>
+    ezt a feladatot könnyen meg lehet oldani a szám szöveggé való alakításával és fordítva.
+    {% if "python 2" in interpreter|lower %}
+    Bővebben <a href="http://docs.python.org/2/library/stdtypes.html">itt lehet olvasni a 
+    beépített típusokról (angolul)</a>.
+    {% else %}
+    Bővebben <a href="http://docs.python.org/3/library/stdtypes.html">itt lehet olvasni a 
+    beépített típusokról (angolul)</a>.
+    {% endif %}
+</p>
+
+<p>
+    <strong>Bemeneti adatok: </strong> egy pozitív egész szám.
+</p>
+
+<p>
+    <strong>Kimeneti adatok: </strong> a számjegyek szorzata egy egész számként (int).
+</p>
+
+<div style="clear: both;"></div>
+
+<div class="for_info_only">
+    <p>
+        <strong>Példák:</strong>
+    </p>
+    <pre class="brush: python">
+checkio(123405) == 120
+checkio(999) == 729
+checkio(1000) == 1
+checkio(1111) == 1
+    </pre>
+</div>
+
+<p class="for_info_only">
+    <strong>Alkalmazása: </strong>
+    Ennek a feladatnak a segítségével meg lehet tanulni az egyszerű adattípusok közötti átalakításokat.
+</p>
+
+<p>
+    <strong>Előfeltételek: </strong><br>
+        0 &lt; number &lt; 10<sup>6</sup>
+</p>
+
+<div class="facts for_info_only">
+    <p>
+        Bármely feladatot tud szerkeszteni és javítani. Mindenegyes feladathoz tartozik 
+        egy az oldal alján található GitHub tároló (repository). Minden feladatnak ugyan 
+        az a szerkezete. Ön részt vehet a közösség életében és javíthatja a hibákat vagy 
+        tökéletesítheti a feladat leírását.
+    </p>
+</div>
